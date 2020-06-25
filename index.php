@@ -7,9 +7,9 @@
 </head>
 <body>
     
- <h1>Hello</h1>
+ <h1>Checking PHP DB Connection</h1>
  <form action="view.php" method="POST">
-    <input type="text" name="uname" id="uname" placeholder="Enter your name">
+    <input type="text" name="uname" id="uname" placeholder="Enter your name" required="yes">
     <button type="submit">Submit</button>
  </form>
 </body>
